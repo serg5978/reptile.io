@@ -1,0 +1,82 @@
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background-image: url(images/battleship.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.head-text {
+  background-color: #1C2833;
+  color: azure;
+  font-size: 2vw;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-transform: uppercase;  
+  text-align: center;
+  padding: 30px 0 30px 0;
+  
+}
+
+section {
+  position: absolute; 
+  top: 130px;
+  left: 0;
+  
+}
+
+.main-text {
+  background-color: #161b22e3;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 20px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+}
+
+.text {
+  padding-bottom: 30px;
+  color: rgb(219, 219, 61);
+  font-family:'Courier New', Courier, monospace;
+  font-size: 2vw;
+}
+
+.leftimg {
+  float: left;
+  margin: 7px 20px 7px 0;
+  width: 30%;
+}
+
+.rightimg {
+  float: right;
+  margin: 7px 0px 7px 20px;
+  width: 30%;
+}
+
+footer { 
+  background-color: #283747e5;
+  color: azure;
+  width: 100%;  
+}
+
+.foot-text {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 16px;
+  padding: 30px 20px 30px 0;
+  text-align: right;
+}
+
+
